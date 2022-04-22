@@ -23,7 +23,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: localhost:5000/myweb:latest
+      - image: 10.11.100.171:5000/myweb:latest
         imagePullPolicy: Always
         name: myweb
 
